@@ -8,6 +8,7 @@ namespace Plugin.Demo
     {
         public string Name
         {
+
             get
             {
                 return "Demo";

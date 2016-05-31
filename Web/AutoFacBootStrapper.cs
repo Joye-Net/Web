@@ -14,6 +14,7 @@ namespace Web
         {
             var builder = new ContainerBuilder();
 
+
             //注册DomainServices
             var services = Assembly.Load("DomainServices");
             builder.RegisterAssemblyTypes(services, services)

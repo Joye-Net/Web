@@ -5,5 +5,6 @@ namespace DomainServices
     {
         string GetData();
         string GetMainData();
+
     }
 }
